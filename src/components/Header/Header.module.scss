@@ -1,0 +1,38 @@
+.header {
+  top: 0;
+  background: #000;
+  width: 100%;
+  position: fixed;
+  color: #fff;
+
+  padding: 1rem;
+
+  
+}
+
+.container {
+  max-width: 60rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  
+  margin: 0 auto;
+  
+  h1 {
+    color: greenyellow;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 1rem;
+    list-style-type: none;
+
+     li {
+      text-transform: capitalize;
+     }
+    
+  }
+}
